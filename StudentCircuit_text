@@ -3,18 +3,13 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup() {
   // put your setup code here, to run once:
-  //specifies amount of rows and columns;
 lcd.begin(16, 2);
-//printing specific text
 lcd.print("Student Circuit");
-//bring cursor to column 0 row 1
 lcd.setCursor(0,1);
-//print the text
 lcd.print("Projects");
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //set cursor to column 0 row 1
 lcd.setCursor(0,1);
 }
